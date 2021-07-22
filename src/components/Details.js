@@ -122,7 +122,7 @@ const Details = () => {
     <div className="border">
       <h1>{detail.address}</h1>
       <h2>{detail.price}</h2>
-      <p>Size: {detail.size}</>
+      <p>Size: {detail.size}</p>
       <img className="photoDetail" src={detail.photo} />
     </div>
   );
