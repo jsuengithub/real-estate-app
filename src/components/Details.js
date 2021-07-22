@@ -121,6 +121,7 @@ const Details = () => {
   return (
     <div className="border">
       <h1>{detail.address}</h1>
+      <h2>{detail.price}</h2>
       <img className="photoDetail" src={detail.photo} />
     </div>
   );
